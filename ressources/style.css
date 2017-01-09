@@ -1,0 +1,53 @@
+/* FONT */
+/*
+@font-face {
+	font-family: 'Cutouts';
+	src: url('cutouts.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+/* GENERAL */
+
+body {
+	font-family: Verdana, "Courier New", "Lucida Console";
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+#fond {
+	background-color  : rgba(0, 0, 0, 1);
+	color: #FFF;
+	overflow: hidden;
+}
+
+/* par défaut, le fait de se placer au dessus d'un module permet d'en voir les contours
+pour aider à son positionnement */
+.module:hover
+{
+	background: none;	/* pour éviter un bug IE */
+	cursor: help;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+
+/* Liens en bleu non soulignés */
+a, a:hover, a:visited
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+a
+{
+	color: #FFF;
+}
+a:hover
+{
+	color: #F90;
+}
+a:visited
+{
+	color: #09C;
+}

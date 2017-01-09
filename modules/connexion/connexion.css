@@ -1,0 +1,78 @@
+/* connexion */
+
+#connexion
+{
+  height: 175px;
+  width: 220px;
+  left             : 0px;
+  top            : 0px;
+  position          : absolute;
+  background-color  : transparent;
+}
+
+#connexion img
+{
+}
+
+#internet_up, #internet_down
+{
+  width: 141px;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+}
+
+#box_up, #box_down
+{
+  width: 150px;
+  height: 65px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius     : 5px;
+  background-color: transparent;
+  z-index: 99;
+}
+
+#box_down
+{
+  background-image  : url('modules/connexion/warning.gif');
+}
+
+/* speedtest */
+#speedtest
+{
+	width: 100px;
+	height: 18px;
+	position: absolute;
+	left: 75px;
+	top: 65px;
+	z-index: inherit;
+}
+
+#speedtest_hi, #speedtest_mid, #speedtest_lo
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 14px;
+	border: white solid 3px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+#speedtest_hi
+{
+	background-color: #00DD00;
+}
+
+#speedtest_mid
+{
+	background-color: #FF8800;
+}
+
+#speedtest_lo
+{
+	background-color: #DD0000;
+}

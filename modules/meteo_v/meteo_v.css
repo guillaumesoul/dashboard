@@ -1,0 +1,19 @@
+/* meteo */
+
+#meteo_v
+{
+	position		: absolute;
+	right			: 540px;
+	top				: 260px;
+}
+
+#meteo_black
+{
+	right			: 0px;
+	bottom			: 0px;
+	width			: 70px;
+	height			: 51px;
+	position		: absolute;
+	z-index			: inherit;
+	background-color: rgba(0, 0, 0, 1);
+}

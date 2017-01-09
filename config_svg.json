@@ -1,0 +1,82 @@
+{
+	"title": "TdB-314",
+	"width": "1280px",
+	"height": "1024px",
+	"modules": [
+	{
+		"name": "horloge",
+		"width": "530px",
+		"top": "10px",
+		"left": "740px",
+		"update": 1,
+		"args":
+		{
+			"taille_heure": "160px",
+			"taille_date": "45px"
+		}
+	},
+	{
+		"name": "rss",
+		"width": "610px",
+		"height": "285px",
+		"top": "250px",
+		"left": "660px",
+		"update": 300,
+		"args":
+		{
+			"url": "http://www.lemonde.fr/rss/une.xml",
+			"nb_items": 3
+		}
+	},
+	{
+		"name": "meteo_h",
+		"width": "600px",
+		"height": "185px",
+		"top": "490px",
+		"left": "30px",
+		"update": 3600
+	},
+	{
+		"name": "xplanet_terre",
+		"width": "450px",
+		"height": "450px",
+		"top": "13px",
+		"left": "25px",
+		"update": 120
+	},
+	{
+		"name": "xplanet_lune",
+		"width": "224px",
+		"height": "224px",
+		"top": "13px",
+		"left": "480px",
+		"update": 600
+	},
+	{
+		"name": "connexion",
+		"width": "220px",
+		"height": "175px",
+		"top": "288px",
+		"left": "420px",
+		"update": 60,
+		"args":
+		{
+			"ip_box": "192.168.1.1",
+			"ip_internet": "www.google.com"
+		}
+	},
+	{
+		"name": "diaporama",
+		"width": "610px",
+		"height": "457px",
+		"top": "535px",
+		"left": "660px",
+		"update": 0,
+		"args":
+		{
+			"dossier": "./jpg/",
+			"delai": 5
+		}
+	}
+	]
+}

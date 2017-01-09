@@ -1,0 +1,29 @@
+/* diaporama */
+
+#diaporama {
+  height: 500px;
+  width: 500px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  padding:0px;
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 1px -1px 0 rgba(125, 125, 125, 0.4);
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap div {
+    float:left;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    border-radius: 12px;
+}

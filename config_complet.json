@@ -1,0 +1,94 @@
+{
+	"title": "TdB-314",
+	"width": "1280px",
+	"height": "1024px",
+	"modules": [
+	{
+		"name": "horloge",
+		"width": "530px",
+		"top": "10px",
+		"left": "740px",
+		"update": 1,
+		"args":
+		{
+			"taille_heure": "160px",
+			"taille_date": "45px"
+		}
+	},
+	{
+		"name": "rss",
+		"width": "610px",
+		"height": "285px",
+		"top": "250px",
+		"left": "660px",
+		"update": 300,
+		"args":
+		{
+			"url": "http://www.lemonde.fr/rss/une.xml",
+			"nb_items": 3
+		}
+	},
+	{
+		"name": "meteo_h",
+		"width": "600px",
+		"height": "185px",
+		"top": "490px",
+		"left": "30px",
+		"update": 3600
+	},
+	{
+		"name": "xplanet_terre",
+		"width": "450px",
+		"height": "450px",
+		"top": "13px",
+		"left": "25px",
+		"update": 120
+	},
+	{
+		"name": "xplanet_lune",
+		"width": "224px",
+		"height": "224px",
+		"top": "13px",
+		"left": "480px",
+		"update": 600
+	},
+	{
+		"name": "connexion",
+		"width": "220px",
+		"height": "175px",
+		"top": "288px",
+		"left": "420px",
+		"update": 60,
+		"args":
+		{
+			"ip_box": "192.168.1.1",
+			"ip_internet": "www.google.com"
+		}
+	},
+	{
+		"name": "teleinfo",
+		"width": "630px",
+		"height": "489px",
+		"top": "523px",
+		"left": "646px",
+		"update": 0
+	},
+	{
+		"name": "ical",
+		"width": "600px",
+		"height": "300px",
+		"top": "700px",
+		"left": "30px",
+		"update": 14400,
+		"args":
+		{
+			"nb_jours": 5,
+			"afficher_feries": "non",
+			"bmp_domicile": "webcal://p05-calendarws.icloud.com/ca/subscribe/1/bfXWNANX9PceJxHjglYXBRKO1583IJGnKI_Ma5FNU94VJ8B7p1O9D_SnEx8PRvQosRw5cNajsZ1jiosgkIVzhyNbqePi2dgkeST9koIBaQo",
+			"bmp_client": "webcal://p05-calendarws.icloud.com/ca/subscribe/1/7G0G76fDXkNHYUtMxkJs4xBQvpNklD2XMAGVWlYXHpD29fhgF_fjtkJOB6S0bQT8d2xo5mGY1aaIKWPQGrXHCCQDWulu9oa9oXTUCGKjuko",
+			"tps_partage": "webcal://p05-calendarws.icloud.com/ca/subscribe/1/FI_K3PQfG20_wrU7xa5ZQifD7KioBIgjmzZPhEevPt56lGpbW-Gco9gudh4CP6ypqJUnqF-A9aoELKzoRhmh_lFxmVSEc-N-klvOXJLa7y4",
+			"chapao": "webcal://p05-calendarws.icloud.com/ca/subscribe/1/Jp3X2x2QdBCoslcXtpHrJn2Vm2xCzr2PljW8QvFHbwL-ufCMq5xmY3RkuoG2MRsXGNyyg9nps0l-ag9cFe9YNjrEJYV6xsYhtgPwg7U03_M"
+		}
+	}
+	]
+}

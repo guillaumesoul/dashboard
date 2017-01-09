@@ -1,0 +1,37 @@
+/* rss */
+
+#rss
+{
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.rss_item
+{
+	margin-left		: 75px;
+	/*border-bottom	: 1px dotted gray;*/
+	overflow		: hidden;
+}
+
+.rss_texte
+{
+	color			: #888;
+	padding-left	: 6px;
+	padding-top		: 6px;
+}
+
+.rss_titre
+{
+	padding-left	: 6px;
+}
+
+#rss img
+{
+	width			: 70px;
+	height			: 70px;
+	position		: absolute;
+	top				: 0px;
+	left			: 0px;
+}

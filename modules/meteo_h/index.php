@@ -1,0 +1,2 @@
+<div id="cont_NDMxOTV8NXwzfDR8NHwwMDAwMDB8MXxGRkZGRkZ8Y3wx"><div id="spa_NDMxOTV8NXwzfDR8NHwwMDAwMDB8MXxGRkZGRkZ8Y3wx"><a id="a_NDMxOTV8NXwzfDR8NHwwMDAwMDB8MXxGRkZGRkZ8Y3wx" href="http://www.meteocity.com/france/saint-ilpize_v43195/" 
+rel="nofollow" target="_blank" style="color:#333;text-decoration:none;">Météo Saint-Ilpize</a> © meteocity.com</div><script type="text/javascript" src="http://widget.meteocity.com/js/NDMxOTV8NXwzfDR8NHwwMDAwMDB8MXxGRkZGRkZ8Y3wx"></script></div>

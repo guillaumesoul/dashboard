@@ -1,0 +1,11 @@
+/* snow */
+
+div.snow
+{
+  position          : absolute;
+  width             : 1px;
+  height            : 1px;
+  font-weight       : bold;
+  color             : #FFF;
+  z-index           : 99999;
+}

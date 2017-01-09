@@ -1,0 +1,17 @@
+/* xplanet_terre */
+
+#xplanet_terre
+{
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	overflow		: hidden;
+	background-color: transparent;
+	border-radius	: 225px;
+}
+
+#xplanet_terre img
+{
+	margin-left: -25px;
+	margin-top: -25px;
+}

@@ -1,0 +1,11 @@
+/* meteo */
+
+#meteo_h
+{
+	width			: 600px;
+	height			: 215px;
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	overflow 		: hidden;
+}
